@@ -11,7 +11,7 @@ public class WalaaPro$ {
                 count++;
             }
         }
-        System.out.println();
+        System.out.println(count);
 
 
     }

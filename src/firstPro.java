@@ -9,7 +9,7 @@ public class firstPro {
         String userIN = scanner.next();
         operation(userIN);
     }
-    public static void operation(String x){
+    public static void operation(String x){        // check whether the user entered a valid pass by checking if he input more than 8 character or more than one digit
         if(x.length()>8){
             int count=0;
             for(int i=0; i<x.length();i++){
@@ -35,10 +35,10 @@ public class firstPro {
 
         }
     }
-    public static boolean digit(char d){
+    public static boolean digit(char d){         // to include all numbers
         return d>='0' && d<='9';
     }
-    public static boolean letter(char y){
+    public static boolean letter(char y){                     // to include all letters
         return (y>='a' && y<='z')|| (y>='A' && y<='Z');
     }
 
